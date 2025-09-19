@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 90%;
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+    }
+    p {
+      color: gray;
+      margin-bottom: 1.5rem;
+    }
+    a {
+      display: block;
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      background: #0077ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    a:hover {
+      background: #005ec2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://via.placeholder.com/100" alt="Your Photo" class="avatar">
+    <h1>Your Name</h1>
+    <p>Welcome to my link page ✨</p><a href="https://twitter.com/yourhandle" target="_blank">Twitter</a>
+<a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>
+<a href="https://linkedin.com/in/yourhandle" target="_blank">LinkedIn</a>
+<a href="https://youtube.com/@yourhandle" target="_blank">YouTube</a>
+<a href="mailto:youremail@example.com">Email Me</a>
+
+  </div>
+</body>
+</html>
